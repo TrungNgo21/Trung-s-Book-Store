@@ -285,7 +285,7 @@ nav {
     background-color: #ccc;
 }
 
-@media screen and (max-width:390px) {
+@media screen and (max-width: 390px) {
     .col-3 {
         width: 100%;
     }
@@ -340,8 +340,6 @@ nav {
     .nav__logo {
         text-align: center;
     }
-
-
 }
 
 @media screen and (max-width: 960px) {
