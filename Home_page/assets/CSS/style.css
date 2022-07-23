@@ -402,6 +402,19 @@ nav {
 
 
 }
+
+@media screen and (min-width: 961px) and (max-width: 1158px) {
+    .nav__logo--l-size {
+        font-size: 20px;
+        margin-right: 8px;
+    }
+
+    .nav__logo {
+        color: #fff;
+        flex: 0.4;
+        text-align: right;
+    }
+}
     
 
 @keyframes bounce {
