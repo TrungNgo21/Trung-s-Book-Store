@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1.0, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav__logo nav__logo--l-size">
+                <i class="fa-solid fa-book-open"></i>
+                Trung's Store
+            </div>
+            <ul id="nav__items">
+                <li><a href="../Home_page/index.html">Home Page</a></li>
+                <li><a href="../Category_page/horror.html">Horror</a></li>
+                <li><a href="../Category_page/romance.html">Romance</a></li>
+                <li><a href="../Category_page/fiction.html">Fiction</a></li>
+                <li><a href="../Book_detail_page/book_detail.html">Book details</a></li>
+                <li><a href="../Contact_page/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="main">
+            <h1 class="main__heading">
+                Contact Us
+            </h1>
+            <div class="main__body">
+                <form action="" class=" row main__body__form">
+    
+                    <div class="col col-full display-flex-row">
+                        <label for="contact-purpose" class="main__body__form__label">
+                            Contact Purpose:
+                        </label>
+                        <select name="" id="contact-purpose" class="main__body__form__select">
+                            <option value="sell-books">I want to sell books</option>
+                            <option value="buy-books">I want to buy books</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col col-2 display-flex-row">
+                        <label for="name" class="main__body__form__label">
+                            Your name:
+                        </label>
+                        <input required type="text" name="name" id="name" class="main__body__form__input" placeholder="Name">
+                    </div>
+    
+                    <div class="col col-2 display-flex-row">
+                        <label for="tel-num" class="main__body__form__label">
+                            Your phone:
+                        </label>
+                        <input required type="tel" name="tel-num" id="tel-num" class="main__body__form__input" placeholder="Phone Num">
+                    </div>
+    
+                    <div class="col col-full display-flex-row">
+                        <label for="email" class="main__body__form__label">
+                            Your email:
+                        </label>
+                        <input required type="email" name="email" id="email" class="main__body__form__input" placeholder="Email">
+                    </div>
+                    
+                    
+                    <div class="col col-2 display-flex-row">
+                        <p>Can we contact you:</p> 
+                        <div class="main__body__form__check-group">
+                            <input required type="checkbox" name="contact-method__mail" id="contact-method__mail" class="main__body__form__input--check">
+                            <label for="contact-method__mail" class="main__body__form__label">By email</label>
+                        </div>
+    
+                        <div class="main__body__form__check-group">
+                            <input required type="checkbox" name="contact-method__phone" id="contact-method__phone" class="main__body__form__input--check">
+                            <label for="contact-method__phone" class="main__body__form__label"> By phone</label> 
+    
+                        </div>
+                    </div>
+    
+                    <div class="col col-2 display-flex-row">
+                        <p>Do you want to receive our weekly newsletter:</p>
+                        <div class="main__body__form__check-group">
+                            <input required type="radio" name="option" id="yes-option" value="yes" checked = "checked" class="main__body__form__input--check">
+                            <label for="yes-option" class="main__body__form__label">Yes</label>
+                        </div>
+    
+                        <div class="main__body__form__check-group">
+                            <input required type="radio" name="option" id="no-option" value="no" class="main__body__form__input--check">
+                            <label for="no-option" class="main__body__form__label">No</label>
+                        </div>
+                    </div>
+    
+                    <div class="col col-2 display-flex-row">
+                        <div class="main__body__form__text-container">
+                            <label for="note" class="main__body__form__label">Note:</label>
+                            <textarea name="note" id="note" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    
+                    <input required class="btn btn--submit" type="submit" value="submit">
+                    <input required class="btn btn--reset" type="button" value="reset">
+                    
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div id="footer">
+            <div class="social-list">
+                <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-snapchat-square"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+    
+            <nav>
+                <div class="nav__logo nav__logo--l-size">
+                    <i class="fa-solid fa-book-open"></i>
+                    Trung's Store
+                </div>
+                <ul id="nav__items" class="nav__items--footer">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Copyright</a></li>
+                    <li><a href="../Contact_page/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </footer>
+</body>
+</html>
