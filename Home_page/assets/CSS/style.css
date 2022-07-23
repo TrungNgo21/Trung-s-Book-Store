@@ -289,7 +289,7 @@ nav {
     background-color: #ccc;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (min-width: 390px) and (max-width: 650px) {
     .col-3 {
         width: 100%;
     }
