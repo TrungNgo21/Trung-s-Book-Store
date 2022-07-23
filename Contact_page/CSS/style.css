@@ -74,11 +74,13 @@ body {
 
 
 .btn--submit {
+    margin-top:70px;
     background-color: #ff623d;
     float: right;
 }
 
 .btn--reset {
+    margin-top:70px;
     background-color: #47d864;
     float: right;
 }
